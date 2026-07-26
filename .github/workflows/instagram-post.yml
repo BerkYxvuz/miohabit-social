@@ -13,7 +13,7 @@ permissions:
 jobs:
   post:
     runs-on: ubuntu-latest
-        environment: IG_ACCESS_TOKEN
+    environment: IG_ACCESS_TOKEN
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
